@@ -1,0 +1,15 @@
+message: Configuration for all members
+data:
+
+- name: fuchicorp
+  domain: fuchicorp.com
+  message: FuchiCorp all services 
+
+- name: fsadykov
+  domain: fsadykov.com
+  message: Farkhod Sadykov all services
+
+- name: csamatov
+  domain: csamatov.com
+  message: Chynguz Samat all services
+
