@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: docker.devops-chicago.com/isitup:latest
+  repository: nexus.bishkekdc.com/isitup
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -23,13 +23,13 @@ ingress:
     cert-manager.io/cluster-issuer: letsencrypt-prod
 
   hosts:
-  - host: isitup.devops-chicago.com
+  - host: isitup.bishkekdc.com
     paths:
     - /
   tls:
   - secretName: isitup-tls
     hosts:
-      - isitup.devops-chicago.com
+      - isitup.bishkekdc.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
