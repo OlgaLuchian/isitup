@@ -2,15 +2,15 @@ variable "deployment_endpoint" {
   type = "map"
 
   default = {
-    test  = "test.isitup.bishkekdc.com"
-    dev  = "dev.isitup.bishkekdc.com"
-    qa   = "qa.isitup.bishkekdc.com"
-    prod = "prod.isitup.bishkekdc.com"
+    test  = "test.isitup.fuchicorp.com"
+    dev  = "dev.isitup.fuchicorp.com"
+    qa   = "qa.isitup.fuchicorp.com"
+    prod = "prod.isitup.fuchicorp.com"
   }
 }
 
 variable "deployment_image" {
-  default = "nexus.bishkekdc.com/isitup"
+  default = "fuchicorp.com/isitup"
 }
 
 variable "deployment_environment" {
