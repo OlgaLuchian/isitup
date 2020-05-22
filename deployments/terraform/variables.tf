@@ -3,9 +3,9 @@ variable "deployment_endpoint" {
 
   default = {
     test  = "test.isitup.bishkekdc.com"
-    dev  = "dev.academy.bishkekdc.com"
-    qa   = "qa.academy.bishkekdc.com"
-    prod = "academy.bishkekdc.com"
+    dev  = "dev.isitup.bishkekdc.com"
+    qa   = "qa.isitup.bishkekdc.com"
+    prod = "prod.isitup.bishkekdc.com"
   }
 }
 
