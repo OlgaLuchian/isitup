@@ -10,7 +10,7 @@ variable "deployment_endpoint" {
 }
 
 variable "deployment_image" {
-  default = "nexus.devops-chicago.com/isitup"
+  default = "docker.devops-chicago.com/isitup:latest"
 }
 
 variable "deployment_environment" {
