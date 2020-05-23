@@ -10,7 +10,7 @@ variable "deployment_endpoint" {
 }
 
 variable "deployment_image" {
-  default = "nexus.bishkekdc.com/isitup"
+  default = "nexus.bishkekdc.com/isitup:v2"
 }
 
 variable "deployment_environment" {
