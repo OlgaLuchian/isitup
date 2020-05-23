@@ -19,7 +19,7 @@ def isItUp(url):
 
 @app.route('/')
 def index():
-    with open('../../../configurations/domains.yaml') as file:
+    with open('./configurations/domains.yaml') as file:
         config = yaml.load(file)
     return render_template('index.html', config_data=config)
 
