@@ -19,8 +19,8 @@ def isItUp(url):
 
 @app.route('/')
 def index():
-    with open('../../../configurations/domains.yaml') as file:
-        config = yaml.load(file)
+    data =  requests.get('https://raw.githubusercontent.com/fuchicorp/isitup/master/configurations/domains.yaml').text
+    config = yaml.load(data)
     return render_template('index.html', config_data=config)
 
 @app.route('/services/<domain>')
